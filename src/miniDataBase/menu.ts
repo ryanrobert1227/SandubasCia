@@ -55,7 +55,7 @@ export const menuData: categoryType[] = [{
         image: hamburguerGeral,
         name: "Frajola",
         price: "R$ 10,00",
-        discription: "Pão, Hamburguer, Queijo, Ovo, Tomate e Alface"
+        discription: "Pão, Hamburguer, Presunto, Queijo, Ovo, Tomate e Alface"
     }, {
         id: 7,
         image: hamburguerGeral,
