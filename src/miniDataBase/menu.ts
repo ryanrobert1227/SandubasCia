@@ -1,10 +1,6 @@
 import { categoryType } from "../Types/interface";
 
 import sucoLaranjaPhoto from "../assets/laranja.jpg"
-import sucoLaranjaBeterrabaPhoto from "../assets/Laranja_beterraba.jpg"
-import sucoLaranjaMamaoPhoto from "../assets/Laranja_Mamao.jpg"
-import sucoLaranjaLeitePhoto from "../assets/Laranja_Leite.jpg"
-import sucoAcaiLaranjaPhoto from "../assets/Açaí_laranja.jpg"
 
 import acaiPhoto from "../assets/Acai.jpg"
 
@@ -12,7 +8,6 @@ import hamburguerGeral from "../assets/HambuguerGeral2.jpg"
 import sanduicheSemHamburguer from "../assets/sanduicheSemHamburguer.jpg"
 import sanduicheFrango from "../assets/sanduicheFrango.jpg"
 import sanduicheCalabresa from "../assets/sanduicheCalabresa.jpg"
-import sanduiche from "../assets/Sanduiche.jpg"
 import ovoSemCarne from "../assets/ovoSemCarne.jpg"
 import indisponivel from "../assets/Indisponivel.jpg"
 
