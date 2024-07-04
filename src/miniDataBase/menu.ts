@@ -61,7 +61,7 @@ export const menuData: categoryType[] = [{
         image: hamburguerGeral,
         name: "Perna Longa",
         price: "R$ 12,00",
-        discription: "Pão, Hamburguer, Salsicha, Queijo, Ovo, Ervilha, Queijo Ralado"
+        discription: "Pão, Hamburguer, Salsicha, Queijo, Ovo e Milho"
     }, {
         id: 8,
         image: hamburguerGeral,
@@ -73,7 +73,7 @@ export const menuData: categoryType[] = [{
         image: hamburguerGeral,
         name: "Tutubarão",
         price: "R$ 13,00",
-        discription: "Pão, Hamburguer,Presunto, Queijo, Ovo, Ervilha, Queijo Ralado, Tomate, Alface"
+        discription: "Pão, Hamburguer,Presunto, Queijo, Ovo, Milho, Cebola, Tomate, Alface"
     }, {
         id: 10,
         image: hamburguerGeral,
@@ -233,71 +233,23 @@ export const menuData: categoryType[] = [{
     discription: "Conheça as Opções",
     options: [{
         id: 1,
-        image: indisponivel,
-        name: "Hot Dog 1",
-        price: "XXXX",
-        discription: "Pão De Hot Dog, Salsicha Molho e Queijo Ralado"
-    }, {
-        id: 2,
-        image: indisponivel,
-        name: "Hot Dog 2",
-        price: "XXXX",
-        discription: "Pão De Hot Dog, 2 Salsichas, Batata Palha, Molho e Queijo Ralado"
-    }, {
-        id: 3,
-        image: sanduiche,
-        name: "Sanduiche de Queijo 1",
-        price: "XXXX",
-        discription: "Pão De Forma, 2 Fatias De Queijo"
-    }, {
-        id: 4,
-        image: sanduicheSemHamburguer,
-        name: "Sanduiche de Queijo 2",
-        price: "XXXX",
-        discription: "Pão De Hamburguer, 2 Fatias De Queijo"
-    }, {
-        id: 5,
-        image: sanduiche,
-        name: "Sanduiche de Queijo 3",
-        price: "XXXX",
-        discription: "Pão Integral, 2 Fatias De Queijo"
-    }, {
-        id: 6,
-        image: sanduiche,
-        name: "Misto 1",
-        price: "R$ 6,00",
-        discription: "Pão De Forma, Queijo e Presunto"
-    }, {
-        id: 7,
         image: sanduicheSemHamburguer,
         name: "Misto 2",
         price: "R$ 6,00",
         discription: "Pão De Hamburguer, Queijo e Presunto"
     }, {
-        id: 8,
-        image: sanduiche,
-        name: "Misto 3",
-        price: "R$ 7,00",
-        discription: "Pão Integral, Queijo e Presunto"
-    }, {
-        id: 9,
+        id: 2,
         image: ovoSemCarne,
         name: "Americano",
         price: "R$ 8,00",
         discription: "Pão, Queijo, Presunto, Ovo, Tomate e Alface"
     }, {
-        id: 10,
+        id: 3,
         image: indisponivel,
         name: "Turbinado",
         price: "R$ 12,00",
         discription: "Pão, 2 Salsichas, Presunto, Queijo, Milho, Tomate, Alface e Batata Palha"
-    }, {
-        id: 11,
-        image: sanduicheSemHamburguer,
-        name: "Peppa",
-        price: "XXXX",
-        discription: "Pão, Ovo e 3 Queijos"
-    }, ]
+    }]
 }, {
     id: 7,
     name: "SANDUICHES NATURAIS",
@@ -352,50 +304,14 @@ export const menuData: categoryType[] = [{
         id: 1,
         image: sucoLaranjaPhoto,
         name: "Suco",
-        price: "R$ 4,00",
-        discription: "Laranja - 300ml"
-    }, {
-        id: 2,
-        image: sucoLaranjaPhoto,
-        name: "Suco",
-        price: "R$ 6,00",
+        price: "R$ 8,00",
         discription: "Laranja - 500ml"
     }, {
-        id: 3,
-        image: sucoLaranjaPhoto,
-        name: "Suco",
-        price: "R$ 7,00",
-        discription: "Laranja Integral 300ml"
-    }, {
-        id: 4,
-        image: sucoLaranjaBeterrabaPhoto,
-        name: "Suco",
-        price: "R$ 7,00",
-        discription: "Laranja Com Beterraba - 500ml"
-    }, {
-        id: 5,
-        image: sucoLaranjaMamaoPhoto,
-        name: "Suco",
-        price: "R$ 7,00",
-        discription: "Laranja Com Mamão - 500ml"
-    }, {
-        id: 6,
-        image: sucoLaranjaLeitePhoto,
-        name: "Suco",
-        price: "R$ 7,00",
-        discription: "Laranja Com Leite - 500ml"
-    }, {
-        id: 7,
-        image: sucoAcaiLaranjaPhoto,
-        name: "Suco",
-        price: "R$ 7,00",
-        discription: "Açaí Com Laranja - 500ml"
-    }, {
-        id: 8,
+        id: 2,
         image: indisponivel,
         name: "Suco",
-        price: "R$ 12,00",
-        discription: "Turbinado - 500ml"
+        price: "R$ 8,00",
+        discription: "Limão - 500ml"
     }]
 }, {
     id: 10,
@@ -405,7 +321,7 @@ export const menuData: categoryType[] = [{
         id: 1,
         image: acaiPhoto,
         name: "Açaí",
-        price: "R$ 15,00",
+        price: "R$ 17,00",
         discription: "500ml"
     }]
 }]
