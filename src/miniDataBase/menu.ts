@@ -1,6 +1,7 @@
 import { categoryType } from "../Types/interface";
 
 import sucoLaranjaPhoto from "../assets/laranja.jpg"
+import sucoLimao from "../assets/Limão.jpg"
 
 import acaiPhoto from "../assets/Acai.jpg"
 
@@ -303,7 +304,7 @@ export const menuData: categoryType[] = [{
         discription: "Laranja - 500ml"
     }, {
         id: 2,
-        image: indisponivel,
+        image: sucoLimao,
         name: "Suco",
         price: "R$ 8,00",
         discription: "Limão - 500ml"
