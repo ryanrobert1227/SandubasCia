@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <Flex flexDirection="column" gap="5vh" height="fit-content" mt="8vh">
+      <Flex flexDirection="column" gap="5vh" height="fit-content" pt="8vh">
         {menuData.map((item) => <Category key={item.id} item={item} />)}
       </Flex>
     </>

@@ -33,9 +33,11 @@ export default function Header() {
         <Text fontSize="1.5rem" fontWeight="500">{ values.startTime } até { values.endTime }</Text>
     </Modal>
     <Flex zIndex={1} justifyContent="space-between" alignItems="center" position="fixed" top="0" 
-      width="100%" height="8vh" borderBottom="3px solid #c5972b" 
-      background="#dfd520"
-      boxShadow="rgba(197, 151, 43, 0.7) 0px 7px 10px" opacity="95%">
+      width="100%" height="8vh" 
+      background="rgb(223, 213, 32, 0.50)"
+      boxShadow="rgba(197, 151, 43, 0.7) 0px 0px 10px"
+      backdropFilter="blur(15px)"
+      css={{ WebkitBackdropFilter: "blur(15px)"}}>
         <Flex alignItems="center" width="50%" height="100%" opacity="100%" pl={{ base: '0.5rem', md: '1rem', lg: '2rem' }}>
           <Image height="auto" width={{ base: '2rem', md: '2.5rem', lg: '3rem' }} src={ Logo } />
           <Text fontSize={{ base: '1rem', md: '1.5rem', lg: '2rem' }} color="White" fontWeight="900">SANDUBAS E CIA</Text>

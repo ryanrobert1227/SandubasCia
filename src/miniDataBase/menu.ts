@@ -230,7 +230,7 @@ export const menuData: categoryType[] = [{
     options: [{
         id: 1,
         image: sanduicheSemHamburguer,
-        name: "Misto 2",
+        name: "Misto",
         price: "R$ 6,00",
         discription: "Pão De Hamburguer, Queijo e Presunto"
     }, {
@@ -248,23 +248,6 @@ export const menuData: categoryType[] = [{
     }]
 }, {
     id: 7,
-    name: "SANDUICHES NATURAIS",
-    discription: "Conheça as Opções",
-    options: [{
-        id: 1,
-        image: indisponivel,
-        name: "Frango",
-        price: "R$ 12,00",
-        discription: "Pão Integral, Maionese Light, Cenoura, Milho, Frango e Passas"
-    }, {
-        id: 2,
-        image: indisponivel,
-        name: "Atum",
-        price: "R$ 12,00",
-        discription: "Pão Integral, Maionese Light, Cenoura, Milho, Atum e Passas"
-    }]
-}, {
-    id: 8,
     name: "SANDUICHES COM CALABRESA",
     discription: "Conheça as Opções",
     options: [{
@@ -293,7 +276,7 @@ export const menuData: categoryType[] = [{
         discription: "Pão, Calabresa, Queijo, Presunto, Ovo, Batata Palha, Molho Acebolado, Tomate e Alface"
     }, ]
 }, {
-    id: 9,
+    id: 8,
     name: "SUCOS",
     discription: "Conheça as Opções",
     options: [{
@@ -310,7 +293,7 @@ export const menuData: categoryType[] = [{
         discription: "Limão - 500ml"
     }]
 }, {
-    id: 10,
+    id: 9,
     name: "AÇAÍ",
     discription: "Conheça as Opções",
     options: [{
